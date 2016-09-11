@@ -6,12 +6,14 @@ a game. The script is written in Perl and generates a gif image of the dungeon.
 
 The result of the script can look like this:
 [dungeon.gif]
+![alt tag](https://github.com/Lallassu/DungeonGenerator/blob/master/dungeon.gif)
 
 The dungeon generator will be used in Qake voxel-engine that can be found here:
 https://www.assetstore.unity3d.com/#!/content/68150
 
 And the result implemented in Qake voxel engine using the output from the script (though ported to C#) can look like this:
 [qake_dungeon.png]
+![alt tag](https://github.com/Lallassu/DungeonGenerator/blob/master/qake_dungeon.png)
 
 ## Run
 ```
