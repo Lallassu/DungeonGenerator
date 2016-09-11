@@ -23,12 +23,10 @@ perl genmap.pl && open dungeon.gif
 ## Algorithm
 The algorithm is very basic but produces very good random dungeons. 
 The process is as follows.
-    1. Generate rooms of random sizes and make sure that they don't overlap and also got some distance
-       between them.
-    2. Add doors in the middle of each room.
-    3. From each door, try to draw a road of a certain size outwards until it hits either a road
-       or another room.
-    4. Flood fill each room of the map. Store the biggest flood filled map and remove the rest.
+* Generate rooms of random sizes and make sure that they don't overlap and also got some distance between them.
+* Add doors in the middle of each room.
+* From each door, try to draw a road of a certain size outwards until it hits either a road or another room.
+* Flood fill each room of the map. Store the biggest flood filled map and remove the rest.
 
 ## License
 MIT License.
